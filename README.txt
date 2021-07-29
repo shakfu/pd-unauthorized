@@ -1,13 +1,3 @@
-# pd-unauthorized
-
-## Note on this version
-
-This is a minor revision of an older version for Yves Degoyon's `unauthorized` puredata library. The main change is that it builds easily with the wonderful `pd-lib-builder`. I created this version so I could run patchers which referenced externals in this library. No further development of this version is anticipated.
-
-Please read on for the original README and visit the original site of
-`unauthorized`: http://ydegoyon.free.fr/software.html for further interest.
-
-## Original README
 
 unauthorized is a library of GUI objects and a handful of objects for working
 with streaming and mp3s.  The home page for the GPL version is here:
@@ -27,25 +17,22 @@ To get the new non-free version, download it from its new CVS repository:
 
 original sources available from http://ydegoyon.free.fr/software.html
 
-## Installing
+Installing
+----------
 
 there is no configure scripts, you need to install :
 
-* pd headers in /usr/include ( m_pd.h and g_canvas.h )
-
-* libmp3lame-dev for the mp3 externals
-
-* libspeex-dev for the speex external
-
-* sources of stk in /usr/src/stk for stk externals ( optional )
+ * pd headers in /usr/include ( m_pd.h and g_canvas.h )
+ * libmp3lame-dev for the mp3 externals
+ * libspeex-dev for the speex external
+ * sources of stk in /usr/src/stk for stk externals ( optional )
 
 have fun!
 sevy ( ydegoyon@gmail.com )
 Copyright 2002 Yves Degoyon
 
-## Included Objects
-
-```
+Included Objects
+-------------
 
 audience~ : 2-dimensional audience simulation ( also called 2 dollars spatialization !!! ) 
 
@@ -311,4 +298,4 @@ wahwah~ : a kind of effect used in psychedelic music, use it elsewhere
     the algorithm was taken from Digital Effects, a guitar effects
     software for DOS which rocks, written by Alexey Smoli (
     http://st.karelia.ru/~smlalx/ )
-```
+
